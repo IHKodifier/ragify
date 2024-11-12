@@ -8,7 +8,7 @@
 PRODUCT_NAME = ragify
 
 // The application's bundle identifier
-PRODUCT_BUNDLE_IDENTIFIER = com.enigmatic.pk.ragify
+PRODUCT_BUNDLE_IDENTIFIER = com.enigmatek.pk.ragify
 
 // The copyright displayed in application information
-PRODUCT_COPYRIGHT = Copyright © 2024 com.enigmatic.pk. All rights reserved.
+PRODUCT_COPYRIGHT = Copyright © 2024 com.enigmatek.pk. All rights reserved.

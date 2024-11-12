@@ -5,6 +5,7 @@ class UserHomePage extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    return const Scaffold(body:  Center(child: Text('User Home Page')));
+    return const Scaffold(body:  Center(child: Text('User Home GAME OVER')),
+    floatingActionButton: FloatingActionButton.extended(onPressed: null, label: Icon(Icons.home)),);
   }
 }
