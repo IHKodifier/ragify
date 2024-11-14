@@ -1,21 +1,21 @@
 {
   "project_info": {
-    "project_number": "114740457194",
-    "project_id": "ragify-dev-new",
-    "storage_bucket": "ragify-dev-new.firebasestorage.app"
+    "project_number": "177144805134",
+    "project_id": "ragify-firebase-dev",
+    "storage_bucket": "ragify-firebase-dev.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:114740457194:android:750894a1a6db07d1d1b193",
+        "mobilesdk_app_id": "1:177144805134:android:1b2cfc3dc82a6652b8495f",
         "android_client_info": {
-          "package_name": "com.enigmatek.pk"
+          "package_name": "com.enigmatek.pk.ragify"
         }
       },
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyDdiKQ9azPzk-uRb580CeX5gzaoVTkOIDo"
+          "current_key": "AIzaSyA5d4p66dO4Ef_XYpa5uyPYSHPatIqLDaI"
         }
       ],
       "services": {

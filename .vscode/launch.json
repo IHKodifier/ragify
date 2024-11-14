@@ -5,10 +5,11 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "ragify",
-            "request": "launch",
-            "type": "dart"
-        },
+			"name": "ragify (debug mode)",
+			"request": "launch",
+			"type": "dart",
+			// "args": ["--verbose"]
+		},
         {
             "name": "ragify (profile mode)",
             "request": "launch",

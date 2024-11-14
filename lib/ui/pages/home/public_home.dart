@@ -3,8 +3,25 @@ import 'package:ragify/widget_export.dart';
 class PublicHomePage extends ConsumerWidget {
   const PublicHomePage({super.key});
 
-   @override
+  @override
   Widget build(BuildContext context, WidgetRef ref) {
-    return const Scaffold(body: Center(child: Text('Public Home Page')));
+    return  Scaffold(
+        body: Center(
+            child: Column(
+      mainAxisAlignment: MainAxisAlignment.center,
+      children: [
+        Text('Public Home Page'),
+        SizedBox(
+          height: 20,
+        ),
+        ElevatedButton(
+          onPressed: () {
+            ref.read(authServiceProvider).signInWithGoogle();
+            // FirebaseFirestore.instance.collection('users').doc().set({'key':'value'});
+          },
+          child: Text('Google Sign In'),
+        )
+      ],
+    )));
   }
 }

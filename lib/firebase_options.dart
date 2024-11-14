@@ -44,37 +44,39 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyDcLpw82WzA4Sa3qiZA7rpGm5ZIQkFZbQQ',
-    appId: '1:114740457194:web:d28c8193adc499ecd1b193',
-    messagingSenderId: '114740457194',
-    projectId: 'ragify-dev-new',
-    authDomain: 'ragify-dev-new.firebaseapp.com',
-    storageBucket: 'ragify-dev-new.firebasestorage.app',
+    apiKey: 'AIzaSyDHJeEdVvRXdIQDhLO3OFEnuoOENBJwKF8',
+    appId: '1:177144805134:web:377e270f42797253b8495f',
+    messagingSenderId: '177144805134',
+    projectId: 'ragify-firebase-dev',
+    authDomain: 'ragify-firebase-dev.firebaseapp.com',
+    storageBucket: 'ragify-firebase-dev.firebasestorage.app',
+    measurementId: 'G-KWZJED8R77',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyDdiKQ9azPzk-uRb580CeX5gzaoVTkOIDo',
-    appId: '1:114740457194:android:750894a1a6db07d1d1b193',
-    messagingSenderId: '114740457194',
-    projectId: 'ragify-dev-new',
-    storageBucket: 'ragify-dev-new.firebasestorage.app',
+    apiKey: 'AIzaSyA5d4p66dO4Ef_XYpa5uyPYSHPatIqLDaI',
+    appId: '1:177144805134:android:1b2cfc3dc82a6652b8495f',
+    messagingSenderId: '177144805134',
+    projectId: 'ragify-firebase-dev',
+    storageBucket: 'ragify-firebase-dev.firebasestorage.app',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyA2tlnpw-NFyEhhG8bOzxWatHAbA0c3GmA',
-    appId: '1:114740457194:ios:987281757aa66d3cd1b193',
-    messagingSenderId: '114740457194',
-    projectId: 'ragify-dev-new',
-    storageBucket: 'ragify-dev-new.firebasestorage.app',
+    apiKey: 'AIzaSyC0PWykk0-vOA8i-jgTftC87dpFcwKngY4',
+    appId: '1:177144805134:ios:21d6af0a97153f16b8495f',
+    messagingSenderId: '177144805134',
+    projectId: 'ragify-firebase-dev',
+    storageBucket: 'ragify-firebase-dev.firebasestorage.app',
     iosBundleId: 'com.enigmatek.pk.ragify',
   );
 
   static const FirebaseOptions windows = FirebaseOptions(
-    apiKey: 'AIzaSyDcLpw82WzA4Sa3qiZA7rpGm5ZIQkFZbQQ',
-    appId: '1:114740457194:web:194f8e9b2febf0dad1b193',
-    messagingSenderId: '114740457194',
-    projectId: 'ragify-dev-new',
-    authDomain: 'ragify-dev-new.firebaseapp.com',
-    storageBucket: 'ragify-dev-new.firebasestorage.app',
+    apiKey: 'AIzaSyDHJeEdVvRXdIQDhLO3OFEnuoOENBJwKF8',
+    appId: '1:177144805134:web:c745e2d7124e36f3b8495f',
+    messagingSenderId: '177144805134',
+    projectId: 'ragify-firebase-dev',
+    authDomain: 'ragify-firebase-dev.firebaseapp.com',
+    storageBucket: 'ragify-firebase-dev.firebasestorage.app',
+    measurementId: 'G-DEM2QZMT23',
   );
 }

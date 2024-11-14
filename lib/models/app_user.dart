@@ -31,6 +31,37 @@ class AppUser {
     );
   }
 
+  // Factory constructor from Firestore document
+  factory AppUser.fromFirestore(DocumentSnapshot<Map<String, dynamic>> doc) {
+    Map<String, dynamic> data = doc.data()!; // Get data from the document
+
+    return AppUser(
+      uid: doc.id, // UID is the document ID
+      email: data['email'],
+      displayName: data['displayName'],
+      photoURL: data['photoURL'],
+      subscriptionTier:
+          _getSubscriptionTierFromString(data['subscriptionTier']),
+      lastActive: data['lastActive'] != null
+          ? (data['lastActive'] as Timestamp).toDate()
+          : null,
+      // ... map other fields from data
+    );
+  }
+
+  // Helper function to convert String to SubscriptionTier enum
+  static SubscriptionTier _getSubscriptionTierFromString(String? tier) {
+    switch (tier) {
+      case 'basic':
+        return SubscriptionTier.basic;
+      case 'premium':
+        return SubscriptionTier.premium;
+      default:
+        return SubscriptionTier.free;
+    }
+  }
+  
+
   // Method to update user data in Firestore
   Future<void> updateUserData(FirebaseFirestore firestore) async {
     await firestore.collection('users').doc(uid).set({

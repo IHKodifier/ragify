@@ -1,0 +1,15 @@
+Error signing in with Google: Assertion failed: file:///C:/Users/Ihtiram/AppData/Local/Pub/Cache/hosted/pub.dev/google_sign_in_web-0.12.4+3/lib/google_sign_in_web.dart:144:9
+appClientId != null
+"ClientID not set. Either set it on a <meta name=\"google-signin-client_id\" content=\"CLIENT_ID\" /> tag, or pass clientId when initializing GoogleSignIn"
+
+
+[+13036 ms] ExpressionEvaluator: Evaluating "widget_export" at packages/ragify/app.dart, package:ragify/services/auth_service.dart:11:34 with scope: {}
+[        ] ExpressionEvaluator: Compiling "widget_export"
+[ +262 ms] Error signing in with Google: Assertion failed: file:///C:/Users/Ihtiram/AppData/Local/Pub/Cache/hosted/pub.dev/google_sign_in_web-0.12.4+3/lib/google_sign_in_web.dart:144:9
+           appClientId != null
+           "ClientID not set. Either set it on a <meta name=\"google-signin-client_id\" content=\"CLIENT_ID\" /> tag, or pass clientId when initializing GoogleSignIn"
+[ +808 ms] org-dartlang-debug:synthetic_debug_expression:1:1: Error: The getter 'widget_export' isn't defined for the class 'AuthService'.
+[        ]  - 'AuthService' is from 'package:ragify/services/auth_service.dart' ('lib/services/auth_service.dart').
+[        ] Try correcting the name to the name of an existing getter, or defining a getter or field named 'widget_export'.
+[        ] widget_export
+[        ] ^^^^^^^^^^^^^
